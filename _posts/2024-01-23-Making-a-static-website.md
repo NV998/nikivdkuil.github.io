@@ -8,6 +8,7 @@ render_with_liquid: false
 ---
 
 _Note: I have a windows laptop and I was lucky the theme was easy to set up._
+
 The first step for my internship was setting up a static website, a place where I could store all my documentation.
 
 ### What you are gonna need
@@ -34,10 +35,10 @@ The tutorials I followed,
 
 Before we start make sure you have all of these programs downloaded.
 
-- github desktop
-- rubyinstaller
-- git
-- visual code studio
+- Github desktop
+- Rubyinstaller
+- Git
+- Visual code studio
 
 #### Setting up github.
 
@@ -52,4 +53,27 @@ First we need to set up a github repository, you do this by going to the [**gith
 
 #### Open Github desktop.
 
-Click on `clone repository` and look for the one you just created.
+Click on `clone repository` and look for the one you just created. This makes us able to adjust the repository locally and add files.
+
+#### Installing ruby and jekyll.
+
+We have installed Ruby which is necessary to install Jekyll. Ruby is a programming language and Jekyll is a ruby gem, gems are code you can use with Ruby projects. First we need to check if we have all the necessary files.
+
+- Run the ruby+devkit installer.
+- Click the `ridk install` on the last screen.
+- Now press `3`, MSYS2 and MINGW development tool chain to install those.
+
+Now that we have installed Ruby we are gonna double check.
+
+- Open your Command prompt
+- Type in `gem install jekyll bundler` to install Jekyll.
+- Type in `jekyll -v` to check if its installed.
+- Type in `ruby -v`, make sure the ruby version is above 2.5.0
+- Next type `gem -v`, my version at the time was 3.4.10
+- You will also need the bundler gem, you can install this by typing `gem install bundler`.
+
+#### Visual code studio.
+
+Next up we are gonna open visual code studio, we need to open up our local github repository. You can do this by clicking `File` -> `Open folder` and looking for the map where your Github repositories are stored.
+
+#### Choosing a theme.
